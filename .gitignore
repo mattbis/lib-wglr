@@ -1,0 +1,11 @@
+**/.idea
+**/node_modules
+**/package.json
+.build
+.staging
+tmp
+.tmp
+.log
+log
+var
+npm-debug.log
