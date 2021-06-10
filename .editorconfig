@@ -1,0 +1,62 @@
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# languages
+
+# lang catch all
+[*.{js,py,c,cpp,rs,go,cmd,ps,sh}]
+charset = utf-8
+
+[*.js]
+indent_style = space
+indent_size = 2
+
+[*.py]
+indent_style = space
+indent_size = 4
+
+[*.cpp]
+indent_style = space
+indent_size = 4
+
+[*.c]
+indent_style = space
+indent_size = 4
+
+[*.rs]
+indent_style = space
+indent_size = 4
+
+[*.go]
+indent_style = space
+indent_size = 4
+
+[*.cmd]
+indent_style = space
+indent_size = 2
+
+[*.ps]
+indent_style = space
+indent_size = 2
+
+[*.sh]
+indent_style = space
+indent_size = 2
+
+
+# definitions
+[*.def]
+indent_style = space
+
+[.def.json]
+[.def.py]
+[.def.js]
+
+# all other extensions register
+[*.{md,cfg,txt,json}]
+charset = utf-8
